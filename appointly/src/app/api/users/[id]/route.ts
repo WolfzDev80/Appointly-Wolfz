@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { NextRequest } from 'next/server'
 import { updateUserRoleSchema } from '@/lib/validations'
 import { getCurrentUser, updateUserRole, deleteUser } from '@/services/users'
