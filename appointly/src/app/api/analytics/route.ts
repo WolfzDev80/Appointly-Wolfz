@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { getCurrentUser, getAnalytics } from '@/services/users'
 import { createApiError, createApiSuccess } from '@/lib/utils'
 
