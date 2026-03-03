@@ -1,4 +1,3 @@
-export const dynamic = 'force-dynamic'
 import Link from 'next/link'
 import { CalendarDays, Shield, Users, Zap } from 'lucide-react'
 
