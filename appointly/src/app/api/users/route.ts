@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic'
 import { NextRequest } from 'next/server'
 import { getAllUsers, getCurrentUser } from '@/services/users'
 import { createApiError, createApiSuccess } from '@/lib/utils'
